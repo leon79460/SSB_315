@@ -1,0 +1,358 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+ h1, h2, h3, h4, h5, h5, h6{
+    font-family: monospace;
+}
+/* global css start */
+.conteiner{
+    width: 1140px;
+    margin: 0px auto; 
+}
+
+.row{
+    width: 100%;
+    float: left;
+}
+.co1-lg-12{
+    width: 33%;
+    float: left;
+}
+
+.col-lg-4{
+    width: 33.33%;
+    float: left; 
+}
+.col-lg-6{
+    width: 50%;
+    float: left; 
+}
+.text-right{
+    text-align: right;
+}
+
+
+/* global css end  */
+
+.header-section{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background-color: #f6f9f9;
+}
+.logo{
+    width: 100%;
+    float: left;
+}
+
+/* banner strat */
+.banner{
+    width: 100%;
+    float: left;
+    padding:120px 0px 80px;
+    background: url("../picture/banner.png") center top no-repeat;
+    background-size: cover;
+}
+
+.inner-banner{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.inner-banner h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-transform: uppercase;
+   
+}
+
+.divider{
+    width: 45%;
+    margin: 20px auto;
+    height: 2px;
+    background-color: #15a4fa;
+
+}
+.inner-banner p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 80px;   
+}
+
+.inner-banner .btn-infu{
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: solid 1px #15a4fa;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 2s;
+    
+   
+    }
+.inner-banner .btn-infu:hover{
+    border:solid 1px #15a4fa;
+    background-color: #15a4fa;
+    color: #fff;
+}
+.banner .arrow{
+    width: 100%;
+    float: left;
+    padding:  120px 0px;
+    text-align: center;
+    margin-top: 40px;
+    }
+    /* banner end */
+
+   /* simlpe pure start  */ 
+.simple-pure{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background: #f6f9f9;
+    text-align: center;
+}
+
+.simple-pure h1 {
+    font-size: 30px;
+    line-height: 52px;
+    color: #2d3950;
+    margin-bottom: 25px;
+    font-weight: 700;
+
+}
+
+.simple-pure p{
+    width: 61%;
+    font-size: 15px;
+    line-height: 24px;
+    color: #a7a8a8;
+    margin: auto;
+
+}
+/* simlpe pure end  */
+
+/* feature section start */
+
+.feature{
+    width:100%;
+    float: left;
+    /* padding: 80px 0px; */
+
+}
+.feature .inner-feature{
+    width: 33%;
+    float: left;
+    padding: 0px 120px;
+    text-align: center;
+}
+.feature .inner-feature img{
+    margin-bottom: 10px;
+
+}
+.feature .inner-feature h3{
+    font-size: 17px;
+    line-height: 15px;
+    font-weight: 700;
+    color: #000;
+    margin: 30px;
+}
+.feature .inner-feature p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #a7a8a8;
+    margin: auto;
+
+}
+/* feature section end */
+
+/* porfolio section start */
+
+.portfolio{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background: #f6f9f9;
+   
+}
+.portfolio h1 {
+    font-size: 30px;
+    line-height: 15px;
+    color: #2d3950;
+    margin-bottom:  40px;
+    text-align: center;
+}
+
+.portfolio p{
+    width: 61%;
+    font-size: 15px;
+    line-height: 10px;
+    color: #a7a8a8;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-left: 265px; 
+}
+
+.inner-porfolio{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin: 15px;
+   
+
+}
+
+.inner-porfolio .port-hover {
+    width: 81%;
+    height: 97%;
+    left: 0px;
+    top: 0px;
+    display: none;
+    transition: 5s;
+    position: absolute;
+    background-color: rgba(21, 164, 250, .6);
+}
+ 
+
+.port-hover .icons{
+    position: absolute ;
+    width: 100%;
+    top: 45%;
+    left: 35%;
+}   
+.port-hover .icons img{
+    margin-right: 5px;
+}
+.inner-porfolio:hover .port-hover{
+    display: block;
+}
+
+/* conact section start */
+.contact{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background:url(../picture/cbg.png) center top no-repeat;
+    background-size: cover;
+}
+
+.contact h1 {
+    font-size: 45px;
+    line-height: 55px;
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contact p{
+    width: 70%;
+    margin: auto;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 60px;
+    text-align: center;
+ }
+
+ .contact-form{
+     width: 50%;
+     margin: 40px auto 0px;
+ }
+ .contact-form .form-group{
+     width: 100%;
+     float: left;
+     margin: 10px;
+ }
+ .contact-form .form-group .form-control{
+     width: 100% ;
+     padding: 15px;
+     background-color: transparent;
+     border: 2px solid #999999 ;
+     border-radius: 5px;
+     font-size: 15px;
+     font-weight: 500;
+     color: #999999;
+     text-transform: capitalize;
+ }
+ .contact-form .form-group span{
+     margin-left: 10px;
+     font-size: 22px;
+     color: #fff;
+     text-transform: capitalize;
+ } 
+ .btn-infu{
+     padding: 10px 35px;
+     border: 1px solid #15a4fa;
+     border-radius: 4px;
+     font-size: 15px;
+     font-weight: 700;
+     color: #fff;
+     background: transparent;
+     transition: 2s;
+ }
+ .btn-infu:hover {
+    border: 1px solid #15a4fa;
+    color: #fff;
+    background: #15a4fa;
+ }
+/* conact section end */
+
+/* footer section start */
+.footer{
+    width: 100%;
+    float: left;
+    padding: 5px 0px;
+}
+.footer p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #999; 
+    /* margin-top: 80px;
+    padding-left: 77px; */
+}
+.socail-icons{
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.socail-icons li{
+    list-style: none;
+    margin-top: 50px;
+    display:inline-block
+    
+}
+.socail-icons li a{
+    display: block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #0099ff;
+    color: #fff;
+    border: 1px solid #0099ff;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 5px;
+    transition: 2s;
+}
+.socail-icons li a:hover{
+background-color: transparent;
+color:#0099ff;
+border: 1px solid #0099ff;
+
+}
+
+
+
